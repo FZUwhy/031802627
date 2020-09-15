@@ -26,6 +26,6 @@ def jaccard_similarity(s1, s2):#jaccard
     return 1.0 * numerator / denominator
 
 #print("orig_0.8_dis_1的测试结果：{:f}".format(jaccard_similarity(s1, s2)))#输出查重结果
-f=open(sys.argv[3],"w",encoding="UTF-8S")
+f=open(sys.argv[3],"w",encoding="UTF-8")
 f.write( str(jaccard_similarity(s1, s2))[0:4] )
 f.close()
